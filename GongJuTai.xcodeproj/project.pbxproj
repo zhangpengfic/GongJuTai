@@ -16,7 +16,10 @@
 		BBC6ED9B1D275403004CA096 /* GongJuTaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6ED9A1D275403004CA096 /* GongJuTaiTests.swift */; };
 		BBC6EDA61D275403004CA096 /* GongJuTaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */; };
 		BBC6EDC51D275DE8004CA096 /* UIColor+WXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */; };
-		BBC6EDC61D275DE8004CA096 /* YiLaiKu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */; };
+		BBD89C581D27DC70008D460B /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD89C501D27DC70008D460B /* GTMBase64.m */; };
+		BBD89C591D27DC70008D460B /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD89C531D27DC70008D460B /* NSData+AES.m */; };
+		BBD89C5A1D27DC70008D460B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD89C551D27DC70008D460B /* NSString+MD5.m */; };
+		BBD89C5B1D27DC70008D460B /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD89C571D27DC70008D460B /* SecurityUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +58,15 @@
 		BBC6EDA71D275403004CA096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXColor.h"; sourceTree = "<group>"; };
 		BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXColor.m"; sourceTree = "<group>"; };
-		BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiLaiKu.swift; sourceTree = "<group>"; };
-		BBC6EDC91D276E3C004CA096 /* GongJuTai-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GongJuTai-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBD89C4F1D27DC70008D460B /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		BBD89C501D27DC70008D460B /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		BBD89C511D27DC70008D460B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		BBD89C521D27DC70008D460B /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		BBD89C531D27DC70008D460B /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		BBD89C541D27DC70008D460B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		BBD89C551D27DC70008D460B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		BBD89C561D27DC70008D460B /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		BBD89C571D27DC70008D460B /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +140,6 @@
 				BBC6ED851D275403004CA096 /* AppDelegate.swift */,
 				BBC6ED871D275403004CA096 /* ViewController.swift */,
 				BBC6ED891D275403004CA096 /* Main.storyboard */,
-				BBC6EDC91D276E3C004CA096 /* GongJuTai-Bridging-Header.h */,
 				BBC6EDBE1D275DE8004CA096 /* GongJu */,
 				BBC6ED8C1D275403004CA096 /* Assets.xcassets */,
 				BBC6ED8E1D275403004CA096 /* LaunchScreen.storyboard */,
@@ -160,11 +169,35 @@
 		BBC6EDBE1D275DE8004CA096 /* GongJu */ = {
 			isa = PBXGroup;
 			children = (
+				BBD89C4D1D27DC70008D460B /* Security */,
 				BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */,
 				BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */,
-				BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */,
 			);
 			path = GongJu;
+			sourceTree = "<group>";
+		};
+		BBD89C4D1D27DC70008D460B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				BBD89C4E1D27DC70008D460B /* GTMBase64 */,
+				BBD89C521D27DC70008D460B /* NSData+AES.h */,
+				BBD89C531D27DC70008D460B /* NSData+AES.m */,
+				BBD89C541D27DC70008D460B /* NSString+MD5.h */,
+				BBD89C551D27DC70008D460B /* NSString+MD5.m */,
+				BBD89C561D27DC70008D460B /* SecurityUtil.h */,
+				BBD89C571D27DC70008D460B /* SecurityUtil.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		BBD89C4E1D27DC70008D460B /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				BBD89C4F1D27DC70008D460B /* GTMBase64.h */,
+				BBD89C501D27DC70008D460B /* GTMBase64.m */,
+				BBD89C511D27DC70008D460B /* GTMDefines.h */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,8 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD89C591D27DC70008D460B /* NSData+AES.m in Sources */,
+				BBD89C5B1D27DC70008D460B /* SecurityUtil.m in Sources */,
+				BBD89C5A1D27DC70008D460B /* NSString+MD5.m in Sources */,
+				BBD89C581D27DC70008D460B /* GTMBase64.m in Sources */,
 				BBC6ED881D275403004CA096 /* ViewController.swift in Sources */,
-				BBC6EDC61D275DE8004CA096 /* YiLaiKu.swift in Sources */,
 				BBC6EDC51D275DE8004CA096 /* UIColor+WXColor.m in Sources */,
 				BBC6ED861D275403004CA096 /* AppDelegate.swift in Sources */,
 			);
@@ -500,7 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJuTai-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -515,7 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJuTai-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
