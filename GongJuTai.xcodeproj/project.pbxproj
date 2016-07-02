@@ -15,7 +15,6 @@
 		BBC6ED901D275403004CA096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC6ED8E1D275403004CA096 /* LaunchScreen.storyboard */; };
 		BBC6ED9B1D275403004CA096 /* GongJuTaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6ED9A1D275403004CA096 /* GongJuTaiTests.swift */; };
 		BBC6EDA61D275403004CA096 /* GongJuTaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */; };
-		BBC6EDC41D275DE8004CA096 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC01D275DE8004CA096 /* NSString+MD5.m */; };
 		BBC6EDC51D275DE8004CA096 /* UIColor+WXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */; };
 		BBC6EDC61D275DE8004CA096 /* YiLaiKu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */; };
 /* End PBXBuildFile section */
@@ -55,8 +54,6 @@
 		BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongJuTaiUITests.swift; sourceTree = "<group>"; };
 		BBC6EDA71D275403004CA096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC6EDB31D2754F3004CA096 /* GongJuTai-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GongJuTai-Bridging-Header.h"; sourceTree = "<group>"; };
-		BBC6EDBF1D275DE8004CA096 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		BBC6EDC01D275DE8004CA096 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXColor.h"; sourceTree = "<group>"; };
 		BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXColor.m"; sourceTree = "<group>"; };
 		BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiLaiKu.swift; sourceTree = "<group>"; };
@@ -163,8 +160,6 @@
 		BBC6EDBE1D275DE8004CA096 /* GongJu */ = {
 			isa = PBXGroup;
 			children = (
-				BBC6EDBF1D275DE8004CA096 /* NSString+MD5.h */,
-				BBC6EDC01D275DE8004CA096 /* NSString+MD5.m */,
 				BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */,
 				BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */,
 				BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */,
@@ -354,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC6EDC41D275DE8004CA096 /* NSString+MD5.m in Sources */,
 				BBC6ED881D275403004CA096 /* ViewController.swift in Sources */,
 				BBC6EDC61D275DE8004CA096 /* YiLaiKu.swift in Sources */,
 				BBC6EDC51D275DE8004CA096 /* UIColor+WXColor.m in Sources */,

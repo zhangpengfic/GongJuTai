@@ -16,12 +16,12 @@ var UserID : String!
      return (NSUserDefaults.standardUserDefaults().objectForKey("userId") as? String!)!
 
 }
-var MD5code : String!
-{
-    get{
-     return NSString.md5(String(format: "%@-%@", UserID, "KEY"))
-    }
-}
+//var MD5code : String!
+//{
+//    get{
+//     return NSString.md5(String(format: "%@-%@", UserID, "KEY"))
+//    }
+//}
 
 
 
