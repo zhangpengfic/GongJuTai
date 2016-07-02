@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335F81E0FF5D1F3DB3A62ACE /* libPods-GongJuTai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3ECDE695AB38839E67E3A78 /* libPods-GongJuTai.a */; };
+		BBC6ED861D275403004CA096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6ED851D275403004CA096 /* AppDelegate.swift */; };
+		BBC6ED881D275403004CA096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6ED871D275403004CA096 /* ViewController.swift */; };
+		BBC6ED8B1D275403004CA096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC6ED891D275403004CA096 /* Main.storyboard */; };
+		BBC6ED8D1D275403004CA096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC6ED8C1D275403004CA096 /* Assets.xcassets */; };
+		BBC6ED901D275403004CA096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC6ED8E1D275403004CA096 /* LaunchScreen.storyboard */; };
+		BBC6ED9B1D275403004CA096 /* GongJuTaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6ED9A1D275403004CA096 /* GongJuTaiTests.swift */; };
+		BBC6EDA61D275403004CA096 /* GongJuTaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */; };
+		BBC6EDC41D275DE8004CA096 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC01D275DE8004CA096 /* NSString+MD5.m */; };
+		BBC6EDC51D275DE8004CA096 /* UIColor+WXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */; };
+		BBC6EDC61D275DE8004CA096 /* YiLaiKu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBC6ED971D275403004CA096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC6ED7A1D275403004CA096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC6ED811D275403004CA096;
+			remoteInfo = GongJuTai;
+		};
+		BBC6EDA21D275403004CA096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC6ED7A1D275403004CA096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC6ED811D275403004CA096;
+			remoteInfo = GongJuTai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28DEEB6BA6D6F66689D5D234 /* Pods-GongJuTai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GongJuTai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GongJuTai/Pods-GongJuTai.debug.xcconfig"; sourceTree = "<group>"; };
+		9E83CF1427B1F7B37E574404 /* Pods-GongJuTai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GongJuTai.release.xcconfig"; path = "Pods/Target Support Files/Pods-GongJuTai/Pods-GongJuTai.release.xcconfig"; sourceTree = "<group>"; };
+		B3ECDE695AB38839E67E3A78 /* libPods-GongJuTai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GongJuTai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC6ED821D275403004CA096 /* GongJuTai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GongJuTai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC6ED851D275403004CA096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBC6ED871D275403004CA096 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBC6ED8A1D275403004CA096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBC6ED8C1D275403004CA096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBC6ED8F1D275403004CA096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBC6ED911D275403004CA096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC6ED961D275403004CA096 /* GongJuTaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GongJuTaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC6ED9A1D275403004CA096 /* GongJuTaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongJuTaiTests.swift; sourceTree = "<group>"; };
+		BBC6ED9C1D275403004CA096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC6EDA11D275403004CA096 /* GongJuTaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GongJuTaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongJuTaiUITests.swift; sourceTree = "<group>"; };
+		BBC6EDA71D275403004CA096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC6EDB31D2754F3004CA096 /* GongJuTai-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GongJuTai-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBC6EDBF1D275DE8004CA096 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		BBC6EDC01D275DE8004CA096 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXColor.h"; sourceTree = "<group>"; };
+		BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXColor.m"; sourceTree = "<group>"; };
+		BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiLaiKu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC6ED7F1D275403004CA096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F81E0FF5D1F3DB3A62ACE /* libPods-GongJuTai.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6ED931D275403004CA096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6ED9E1D275403004CA096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523D19358FB31958AEEB8DE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28DEEB6BA6D6F66689D5D234 /* Pods-GongJuTai.debug.xcconfig */,
+				9E83CF1427B1F7B37E574404 /* Pods-GongJuTai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0BC7B7776E508C277A5002D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3ECDE695AB38839E67E3A78 /* libPods-GongJuTai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBC6ED791D275403004CA096 = {
+			isa = PBXGroup;
+			children = (
+				BBC6ED841D275403004CA096 /* GongJuTai */,
+				BBC6ED991D275403004CA096 /* GongJuTaiTests */,
+				BBC6EDA41D275403004CA096 /* GongJuTaiUITests */,
+				BBC6ED831D275403004CA096 /* Products */,
+				523D19358FB31958AEEB8DE7 /* Pods */,
+				A0BC7B7776E508C277A5002D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC6ED831D275403004CA096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6ED821D275403004CA096 /* GongJuTai.app */,
+				BBC6ED961D275403004CA096 /* GongJuTaiTests.xctest */,
+				BBC6EDA11D275403004CA096 /* GongJuTaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC6ED841D275403004CA096 /* GongJuTai */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6ED851D275403004CA096 /* AppDelegate.swift */,
+				BBC6ED871D275403004CA096 /* ViewController.swift */,
+				BBC6EDB31D2754F3004CA096 /* GongJuTai-Bridging-Header.h */,
+				BBC6ED891D275403004CA096 /* Main.storyboard */,
+				BBC6EDBE1D275DE8004CA096 /* GongJu */,
+				BBC6ED8C1D275403004CA096 /* Assets.xcassets */,
+				BBC6ED8E1D275403004CA096 /* LaunchScreen.storyboard */,
+				BBC6ED911D275403004CA096 /* Info.plist */,
+			);
+			path = GongJuTai;
+			sourceTree = "<group>";
+		};
+		BBC6ED991D275403004CA096 /* GongJuTaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6ED9A1D275403004CA096 /* GongJuTaiTests.swift */,
+				BBC6ED9C1D275403004CA096 /* Info.plist */,
+			);
+			path = GongJuTaiTests;
+			sourceTree = "<group>";
+		};
+		BBC6EDA41D275403004CA096 /* GongJuTaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */,
+				BBC6EDA71D275403004CA096 /* Info.plist */,
+			);
+			path = GongJuTaiUITests;
+			sourceTree = "<group>";
+		};
+		BBC6EDBE1D275DE8004CA096 /* GongJu */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6EDBF1D275DE8004CA096 /* NSString+MD5.h */,
+				BBC6EDC01D275DE8004CA096 /* NSString+MD5.m */,
+				BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */,
+				BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */,
+				BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */,
+			);
+			path = GongJu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC6ED811D275403004CA096 /* GongJuTai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC6EDAA1D275403004CA096 /* Build configuration list for PBXNativeTarget "GongJuTai" */;
+			buildPhases = (
+				DADB75C53BB29CA30453C390 /* 📦 Check Pods Manifest.lock */,
+				BBC6ED7E1D275403004CA096 /* Sources */,
+				BBC6ED7F1D275403004CA096 /* Frameworks */,
+				BBC6ED801D275403004CA096 /* Resources */,
+				AB6045C77AB4723B6DCD7477 /* 📦 Embed Pods Frameworks */,
+				252EDAAE9E4E6E37DA66D6F4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GongJuTai;
+			productName = GongJuTai;
+			productReference = BBC6ED821D275403004CA096 /* GongJuTai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBC6ED951D275403004CA096 /* GongJuTaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC6EDAD1D275403004CA096 /* Build configuration list for PBXNativeTarget "GongJuTaiTests" */;
+			buildPhases = (
+				BBC6ED921D275403004CA096 /* Sources */,
+				BBC6ED931D275403004CA096 /* Frameworks */,
+				BBC6ED941D275403004CA096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC6ED981D275403004CA096 /* PBXTargetDependency */,
+			);
+			name = GongJuTaiTests;
+			productName = GongJuTaiTests;
+			productReference = BBC6ED961D275403004CA096 /* GongJuTaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBC6EDA01D275403004CA096 /* GongJuTaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC6EDB01D275403004CA096 /* Build configuration list for PBXNativeTarget "GongJuTaiUITests" */;
+			buildPhases = (
+				BBC6ED9D1D275403004CA096 /* Sources */,
+				BBC6ED9E1D275403004CA096 /* Frameworks */,
+				BBC6ED9F1D275403004CA096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC6EDA31D275403004CA096 /* PBXTargetDependency */,
+			);
+			name = GongJuTaiUITests;
+			productName = GongJuTaiUITests;
+			productReference = BBC6EDA11D275403004CA096 /* GongJuTaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC6ED7A1D275403004CA096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WanXunAlfred;
+				TargetAttributes = {
+					BBC6ED811D275403004CA096 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BBC6ED951D275403004CA096 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BBC6ED811D275403004CA096;
+					};
+					BBC6EDA01D275403004CA096 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BBC6ED811D275403004CA096;
+					};
+				};
+			};
+			buildConfigurationList = BBC6ED7D1D275403004CA096 /* Build configuration list for PBXProject "GongJuTai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC6ED791D275403004CA096;
+			productRefGroup = BBC6ED831D275403004CA096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC6ED811D275403004CA096 /* GongJuTai */,
+				BBC6ED951D275403004CA096 /* GongJuTaiTests */,
+				BBC6EDA01D275403004CA096 /* GongJuTaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC6ED801D275403004CA096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC6ED901D275403004CA096 /* LaunchScreen.storyboard in Resources */,
+				BBC6ED8D1D275403004CA096 /* Assets.xcassets in Resources */,
+				BBC6ED8B1D275403004CA096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6ED941D275403004CA096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6ED9F1D275403004CA096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		252EDAAE9E4E6E37DA66D6F4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GongJuTai/Pods-GongJuTai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6045C77AB4723B6DCD7477 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GongJuTai/Pods-GongJuTai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DADB75C53BB29CA30453C390 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC6ED7E1D275403004CA096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC6EDC41D275DE8004CA096 /* NSString+MD5.m in Sources */,
+				BBC6ED881D275403004CA096 /* ViewController.swift in Sources */,
+				BBC6EDC61D275DE8004CA096 /* YiLaiKu.swift in Sources */,
+				BBC6EDC51D275DE8004CA096 /* UIColor+WXColor.m in Sources */,
+				BBC6ED861D275403004CA096 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6ED921D275403004CA096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC6ED9B1D275403004CA096 /* GongJuTaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6ED9D1D275403004CA096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC6EDA61D275403004CA096 /* GongJuTaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBC6ED981D275403004CA096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC6ED811D275403004CA096 /* GongJuTai */;
+			targetProxy = BBC6ED971D275403004CA096 /* PBXContainerItemProxy */;
+		};
+		BBC6EDA31D275403004CA096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC6ED811D275403004CA096 /* GongJuTai */;
+			targetProxy = BBC6EDA21D275403004CA096 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBC6ED891D275403004CA096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC6ED8A1D275403004CA096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBC6ED8E1D275403004CA096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC6ED8F1D275403004CA096 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBC6EDA81D275403004CA096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBC6EDA91D275403004CA096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC6EDAB1D275403004CA096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DEEB6BA6D6F66689D5D234 /* Pods-GongJuTai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GongJuTai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJuTai-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBC6EDAC1D275403004CA096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E83CF1427B1F7B37E574404 /* Pods-GongJuTai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GongJuTai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJuTai-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BBC6EDAE1D275403004CA096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GongJuTaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTaiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GongJuTai.app/GongJuTai";
+			};
+			name = Debug;
+		};
+		BBC6EDAF1D275403004CA096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GongJuTaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTaiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GongJuTai.app/GongJuTai";
+			};
+			name = Release;
+		};
+		BBC6EDB11D275403004CA096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GongJuTaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTaiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GongJuTai;
+			};
+			name = Debug;
+		};
+		BBC6EDB21D275403004CA096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GongJuTaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTaiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GongJuTai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC6ED7D1D275403004CA096 /* Build configuration list for PBXProject "GongJuTai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC6EDA81D275403004CA096 /* Debug */,
+				BBC6EDA91D275403004CA096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC6EDAA1D275403004CA096 /* Build configuration list for PBXNativeTarget "GongJuTai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC6EDAB1D275403004CA096 /* Debug */,
+				BBC6EDAC1D275403004CA096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC6EDAD1D275403004CA096 /* Build configuration list for PBXNativeTarget "GongJuTaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC6EDAE1D275403004CA096 /* Debug */,
+				BBC6EDAF1D275403004CA096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC6EDB01D275403004CA096 /* Build configuration list for PBXNativeTarget "GongJuTaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC6EDB11D275403004CA096 /* Debug */,
+				BBC6EDB21D275403004CA096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBC6ED7A1D275403004CA096 /* Project object */;
+}
