@@ -53,10 +53,10 @@
 		BBC6EDA11D275403004CA096 /* GongJuTaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GongJuTaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC6EDA51D275403004CA096 /* GongJuTaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongJuTaiUITests.swift; sourceTree = "<group>"; };
 		BBC6EDA71D275403004CA096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBC6EDB31D2754F3004CA096 /* GongJuTai-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GongJuTai-Bridging-Header.h"; sourceTree = "<group>"; };
 		BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXColor.h"; sourceTree = "<group>"; };
 		BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXColor.m"; sourceTree = "<group>"; };
 		BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiLaiKu.swift; sourceTree = "<group>"; };
+		BBC6EDC81D276C7F004CA096 /* GongJuTai-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GongJuTai-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,6 @@
 			children = (
 				BBC6ED851D275403004CA096 /* AppDelegate.swift */,
 				BBC6ED871D275403004CA096 /* ViewController.swift */,
-				BBC6EDB31D2754F3004CA096 /* GongJuTai-Bridging-Header.h */,
 				BBC6ED891D275403004CA096 /* Main.storyboard */,
 				BBC6EDBE1D275DE8004CA096 /* GongJu */,
 				BBC6ED8C1D275403004CA096 /* Assets.xcassets */,
@@ -160,6 +159,7 @@
 		BBC6EDBE1D275DE8004CA096 /* GongJu */ = {
 			isa = PBXGroup;
 			children = (
+				BBC6EDC81D276C7F004CA096 /* GongJuTai-Bridging-Header.h */,
 				BBC6EDC11D275DE8004CA096 /* UIColor+WXColor.h */,
 				BBC6EDC21D275DE8004CA096 /* UIColor+WXColor.m */,
 				BBC6EDC31D275DE8004CA096 /* YiLaiKu.swift */,
@@ -500,7 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJuTai-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJu/GongJuTai-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -515,7 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-WanXunAlfred.GongJuTai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJuTai-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GongJuTai/GongJu/GongJuTai-Bridging-Header.h";
 			};
 			name = Release;
 		};
